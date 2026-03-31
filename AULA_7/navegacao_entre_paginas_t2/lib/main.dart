@@ -24,26 +24,26 @@ class TelaInicial extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              child: const Text('Ana – (11) 91111-1111'),
+              child: const Text('Douglas – (11) 91111-1111'),
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => SegundaTela(nome: 'Ana', telefone: '(11) 91111-1111'),
+                  builder: (context) => SegundaTela(nome: 'Douglas', telefone: '(11) 91111-1111'),
                 ));
               },
             ),
             ElevatedButton(
-              child: const Text('Carlos – (21) 92222-2222'),
+              child: const Text('Hiro – (21) 92222-2222'),
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => SegundaTela(nome: 'Carlos', telefone: '(21) 92222-2222'),
+                  builder: (context) => SegundaTela(nome: 'Hiro', telefone: '(21) 92222-2222'),
                 ));
               },
             ),
             ElevatedButton(
-              child: const Text('Mariana – (31) 93333-3333'),
+              child: const Text('Charlo – (31) 93333-3333'),
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => SegundaTela(nome: 'Mariana', telefone: '(31) 93333-3333'),
+                  builder: (context) => SegundaTela(nome: 'Charlo', telefone: '(31) 93333-3333'),
                 ));
               },
             ),
